@@ -1,0 +1,95 @@
+.image-out:hover {
+    opacity: 0%;
+}
+
+.profile-name {
+    background: #fff;
+    background:rgba(255,255,255,0.6);
+    color: #000;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.available-light {
+    background-color: green;
+    border: 2px solid white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    right: 108px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.unavailable-light {
+    background-color: red;
+    border: 2px solid white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    right: 126px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.available {
+    font-size: 10px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 20px;
+    padding-left: 35px;
+}
+  
+.available:hover {
+    visibility: hidden;
+}
+
+.profile-card2 {
+    color: white;
+    padding: 1.1em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.hover-new {
+    text-align: center;
+    width: 80px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.profile-card {
+    position:relative;
+}
+  
+ .profile-card:hover { 
+    background-color: #EC4899;
+    z-index: 1000;
+ }
+  
+ .image-out:hover {
+    opacity: 0%;
+ }
+
+.profile-c:hover {
+    visibility: hidden;
+}

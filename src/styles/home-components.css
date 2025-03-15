@@ -1,0 +1,116 @@
+.imgFit {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-position: center;
+}
+
+.category-card {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto;
+  min-height: 65vh;
+}
+
+.category-title {
+  height: 100px;
+  border-bottom: 2px solid #aaa;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.whatsapp-info-card {
+  border: 1px solid white;
+  border-radius: 15px;
+  max-width: 160px;
+  align-items: center;
+}
+
+.card-cat {
+  background: #FFF;
+  border-radius: 10px;
+  min-height: 60vh;
+  max-height: 80vh;
+  max-width: 60vh;
+  margin: auto;
+}
+
+.miniCardCat {
+  margin: auto;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.sub-title {
+  position: absolute;
+  padding-top: 5em;
+  font-size: 600;
+  margin: auto;
+  color: white;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  width: 100%;
+  letter-spacing: -1px;
+  font-family: "League Gothic";
+}
+
+.mobile-card {
+    margin: auto;
+    border-radius: 15px;
+    min-height: 20vh;
+    max-height: 50vh;
+    background-image: linear-gradient(#343434, #010101 );
+    color: white;
+    padding-bottom: 20px;
+}
+
+.nav-cat-border {
+    border-radius: 10px;
+}
+    
+.nav-cat-text {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+    
+.image-out:hover {
+    opacity: 0%;
+}
+
+.btn-home-blog {
+    padding: 0.7em;
+    background: #E00A8B;
+    border-radius: 10px;
+    margin: auto;
+    width: 10em;  
+    font-family: 'League Gothic';
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  
+  .btn-home-blog:hover {
+    background-color: #EC4899;
+    color: white;
+  }
+
+  .nav-cat-card {
+    position:relative;
+  }
+  
+  .nav-cat-card:hover { 
+    background-color: #EC4899;
+    z-index: 1000;
+  }

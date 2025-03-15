@@ -1,0 +1,52 @@
+.mainDiv {
+    max-height: 90%;
+}
+
+.indexZ {
+    z-index: 1;
+}
+
+.indexZZ {
+    z-index: 10;
+}
+.girlImage {
+    max-width: 540px;
+}
+
+.imageSelector {
+    height: 100%;
+    margin: 140px auto; /*auto*/
+}
+
+.invertIndexZ {
+    z-index: -1000;
+}
+
+.secondIndex {
+    z-index: -10000;
+    height: 100%;
+}
+
+.profilePicture {
+    object-fit: cover; 
+    margin: 0 auto;
+    margin-top: '5em';
+    z-index: -1000;
+}
+
+.profile-table {
+    font-family: sans-serif;
+    width: 100%;
+}
+    
+.profile-table td, .profile-table th {
+    padding: 8px;
+    margin: 8px;
+}
+    
+.profile-table tr:nth-child(even){background-color: #111;}
+    .profile-table tr:nth-child(odd){
+    background-color: #222;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}

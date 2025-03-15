@@ -1,0 +1,48 @@
+.btn-blog {
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'League Gothic';
+}
+
+.btn-primary {
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'League Gothic';
+}
+.date {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'League Gothic';
+    margin-bottom: -1.75rem !important;
+    color: #000;
+  }
+
+  .month {
+    font-size: 50px;
+    font-family: 'League Gothic';
+  }
+
+  .btn-text {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background: #E00A8B;
+    font-family: 'League Gothic';
+  }
+  
+  .btn-text:hover {
+    color: white;
+  }
+
+  .screenHeight {
+    height:100vh;
+  }

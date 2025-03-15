@@ -1,0 +1,118 @@
+
+.btn-blog {
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'League Gothic';
+}
+
+.btn-home-blog {
+  padding: 0.7em;
+  background: #E00A8B;
+  border-radius: 10px;
+  margin: auto;
+  width: 10em;  
+  font-family: 'League Gothic';
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.btn-home-blog:hover {
+  background-color: #EC4899;
+  color: white;
+}
+
+.btn-text {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background: #E00A8B;
+  font-family: 'League Gothic';
+}
+
+.btn-text:hover {
+  color: white;
+}
+
+.btn-primary {
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'League Gothic';
+}
+
+.btn-nav {
+  padding: 1em;
+  color: #fff;
+  font-style: italic;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #E00A8B;
+  border-radius: 10px;
+  min-width: 9vw;
+  z-index: -1;
+}
+
+.btn-nav:hover {
+  background-color: #EC4899;
+  color: white;
+}
+
+.radio-cards {
+  margin: auto;
+  border-radius: 15px;
+  min-height: 20vh;
+  max-height: 50vh;
+  background-image: linear-gradient(#343434, #010101 );
+  color: white;
+  padding-bottom: 20px;
+}
+
+.model-name {
+  font-family: "League Gothic";
+  font-weight: bold;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.carrousel-profile {
+  border-radius: 50px;
+  border: 3px solid #fff;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0,0,0,0.0);
+}
+
+.carrousel-profile:focus { background-color: #E00A8B; }
+.carrousel-profile:hover { background-color: #E00A8B; }
+
+.table-available {
+  color: white;
+}
+
+.table-available td:nth-child(even){
+  text-align: right;
+}
+
+.last-border {
+  border: #E00A8B;
+}
+
+.space-table td {
+  justify-content: space-between;
+}

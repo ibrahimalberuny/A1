@@ -1,9 +1,0 @@
-Sitemap: https://lacelestina.co/sitemap.xml
-
-User-agent: *
-Allow: *
-Disallow: /campaign/
-Disallow: /profiles/
-Disallow: /profiles/location/
-Disallow: /static/
-Disallow: /chat

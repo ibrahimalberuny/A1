@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>La Celestina</ShortName>
+  <Description>Search La Celestina</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://lacelestina.co/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://lacelestina.co?q={searchTerms}&amp;ref=opensearch"/>
+  <moz:SearchForm>https://lacelestina.co</moz:SearchForm>
+</OpenSearchDescription>

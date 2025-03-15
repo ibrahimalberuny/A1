@@ -1,0 +1,4 @@
+sitemap: https://dgsa2evepegtp.cloudfront.net/sitemap.xml
+
+User-agent: *
+disallow: /
